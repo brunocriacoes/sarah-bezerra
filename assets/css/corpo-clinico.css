@@ -1,0 +1,84 @@
+/* Estilo para a seção do corpo clínico */
+.corpo-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.corpo-title {
+    font-size: 2.5rem;
+    color: #0077b6;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.corpo-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Grid de cards */
+.corpo-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* Card individual */
+.corpo-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.corpo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem do perfil */
+.corpo-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #0077b6;
+}
+
+/* Nome */
+.corpo-card h3 {
+    font-size: 1.5rem;
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+/* Descrição */
+.corpo-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+/* Responsividade adicional */
+@media (max-width: 768px) {
+    .corpo-title {
+        font-size: 2rem;
+    }
+
+    .corpo-card img {
+        width: 100px;
+        height: 100px;
+    }
+}
