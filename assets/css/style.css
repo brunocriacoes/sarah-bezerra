@@ -171,7 +171,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 .main-banner picture img {
@@ -202,7 +202,7 @@
     }
 }
 
-.cta-button {    
+.cta-button {
     transform: translateY(0);
     font-family: "Montserrat", sans-serif;
     font-size: 8px;
@@ -213,7 +213,7 @@
     border-radius: 40px;
     padding: 15px 30px;
     text-decoration: none;
-    display: inline-block;    
+    display: inline-block;
     transition: transform 0.3s ease, background-color 0.3s ease;
 
     @media (min-width: 760px) {
@@ -223,15 +223,15 @@
 }
 
 .cta-button:hover {
-    transform: scale(1.02);    
+    transform: scale(1.02);
     background-color: var(--ctacolorbgover);
 }
 
 .cta-button span {
-    font-family: "Montserrat", sans-serif;    
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;
 }
 
 .cta-banner {
@@ -335,7 +335,7 @@
     text-align: center;
     padding: 0 0 24px 0;
 
-    @media (min-width: 760px) {        
+    @media (min-width: 760px) {
         text-align: left;
     }
 }
@@ -377,8 +377,8 @@
     margin: 24px auto 0 auto;
     margin-top: 24px;
 
-    @media (min-width: 760px) {        
-        margin: unset;        
+    @media (min-width: 760px) {
+        margin: unset;
     }
 }
 
@@ -459,7 +459,7 @@ section {
 
 .cards {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 32px;
 }
@@ -628,21 +628,31 @@ video {
     object-fit: cover;
     display: block;
 
-    @media (min-width: 760px) {        
-        width: calc(100% / 9);      
+    @media (min-width: 760px) {
+        width: calc(100% / 9);
     }
 }
 
 .main-hero {
     display: grid;
-    grid-template-columns: 1fr 30%;
-    gap: 16px;
-    width: 60%;    
-    margin: 48px auto 0 auto;
+    grid-template-columns: 1fr;    
+    gap: 48px;
+    width: 80%;
+    margin: 64px auto 64px auto;
+
+    @media (min-width: 760px) {
+        grid-template-columns: 1fr 40%;
+    }
 }
 
-.main-hero h2, p {
+.main-hero span {
+    text-transform: uppercase;
+}
+
+.main-hero h2,
+p {
     text-align: left;
+    margin: 24px 0;
 }
 
 .main-hero img {
@@ -651,6 +661,8 @@ video {
     object-fit: cover;
     border-radius: 10px;
     display: block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .main-hero a {
