@@ -618,13 +618,42 @@ video {
 .images-gallery {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 150px;
     overflow: hidden;
 }
 
 .images-gallery img {
-    width: calc(100% / 7);
-    height: auto;
-    object-fit: contain;
+    width: calc(100% / 3);
+    height: 100%;
+    object-fit: cover;
     display: block;
+
+    @media (min-width: 760px) {        
+        width: calc(100% / 9);      
+    }
+}
+
+.main-hero {
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    gap: 16px;
+    width: 60%;    
+    margin: 48px auto 0 auto;
+}
+
+.main-hero h2, p {
+    text-align: left;
+}
+
+.main-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.main-hero a {
+    display: inline-block;
+    margin: 0 auto;
 }
