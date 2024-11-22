@@ -19,7 +19,8 @@
     text-decoration: none;
     cursor: pointer;
 }
-.grid-contact a:hover{
+
+.grid-contact a:hover {
     color: #054a80;
     text-decoration: none;
     cursor: pointer;
@@ -33,4 +34,53 @@
 .grid-contact h2 {
     color: #0064b1;
     font-family: var(--title);
+}
+
+.grid-double {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "A"
+        "B";
+    margin-bottom: 48px;
+
+    @media (min-width: 760px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-bottom: 0px;
+    }
+}
+
+.service h1 {
+    color: #af7342;
+    font-family: var(--title);
+}
+
+.service h2 {
+    color: #0064b1;
+    font-family: var(--title);
+}
+
+.service p {
+    font-family: var(--text);
+    padding: 0 48px;
+}
+
+.grid-double img {
+    grid-area: A;
+
+    @media (min-width: 760px) {
+        grid-area: unset;
+    }
+
+    object-fit: cover;
+    width: 100%;
+}
+
+.grid-double>div {
+    grid-area: B;
+
+    @media (min-width: 760px) {
+        grid-area: unset;
+    }
 }
