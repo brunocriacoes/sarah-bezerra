@@ -4,13 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nós</title>
+    <title>SERVIÇOS</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 
 <body>
+
+    <header>
+        <div class="bg-menu">
+            <div class="container">
+                <div class="menu_grid">
+                    <div>
+                        <a href="./index.html">
+                            <img src="./assets/logo/logo.png" class="logo" alt="Sarah Bezerra">
+                        </a>
+                    </div>
+                    <div>
+                        <nav>
+                            <a href="./index.html" class="menu_link menu_link_active">Home</a>
+                            <a href="./sobre-nos.html" class="menu_link">Sobre nós</a>
+                            <a href="./corpo-clinico.html" class="menu_link">Corpo Clínico</a>
+                            <a href="./servicos.html" class="menu_link">Serviços</a>
+                        </nav>
+                    </div>
+                    <div>
+                        <a href="./contato.html" class="cta-button">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-mobile">
+        <div>
+            <div>
+                <img src="./assets/logo/logo.png" alt="Sarah Bezerra">
+            </div>
+            <label for="menu-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+    </div>
+
+    <div>
+        <input type="checkbox" id="menu-mobile" hidden>
+        <div class="menu-fix-mobile">
+            <a href="./index.html">Home</a>
+            <a href="./sobre-nos.html">Sobre nós</a>
+            <a href="./corpo-clinico.html">Corpo Clínico</a>
+            <a href="./servicos.html">Serviço</a>
+            <a href="./contato.html">Contato</a>
+        </div>
+    </div>
+
     <img src="./assets/image/fachada-one.png" class="header_image" alt="Sobre nós">
     <br>
     <div class="container service">
@@ -137,6 +185,44 @@
         </div>
         <br>
     </div>
+
+    <div class="full footer_bg">
+        <div class="container">
+            <div class="footer_grid">
+                <div>
+                    <img src="./assets/logo/logo.png" class="footer_logo" alt="Sarah Bezerra">
+                </div>
+                <div>
+                    <h5 class="footer_title">Sobre nós</h5>
+                    <p class="footer_text">
+                        Seu tratamento, nossa missão.<br>Sua vida, nossa prioridade.
+                    </p>
+                </div>
+                <div>
+                    <h5 class="footer_title">Páginas</h5>
+                    <a href="./index.html" class="footer_link">Home</a>
+                    <a href="./sobre-nos.html" class="footer_link">Sobre Nós</a>
+                    <a href="./corpo-clinico.html" class="footer_link">Corpo Clínico</a>
+                    <a href="./servicos.html" class="footer_link">Serviços</a>
+                    <a href="./contato.html" class="footer_link">Contato</a>
+                </div>
+                <div>
+                    <h5 class="footer_title">Entre em contato</h5>
+                    <a class="footer_link"
+                        href="mailto:contato@hemodialisesarahbezerra.com.br">contato@hemodialisesarahbezerra.com.br</a>
+                    <a class="footer_link" href="tel:+5582920005673"> (82) 92000-5673</a>
+                    <div class="link_social">
+                        <a href="http://instagram.com/clinica.sarahbezerra" target="_blank" rel="Instagram">
+                            <i class="fa-brands fa-instagram icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="copy"> &copy; 2023 Clínica de Hemodiálise Sarah Bezerra </footer>
+        <script src="./assets/js/main.js" type="module"></script>
+    </div>
+
 </body>
 
 </html>
