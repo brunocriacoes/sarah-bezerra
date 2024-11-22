@@ -1,0 +1,27 @@
+{
+    "map" : "https://www.google.com/maps/place/9°33'22.1\"S+37°23'21.1\"W/@-9.5561438,-37.3917541,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-9.5561438!4d-37.3891792?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D",
+    "title" : "Corpo Clínico",
+    "contet" : "Nossa equipe médica é formada por profissionais altamente capacitados, com anos de experiência no tratamento de doenças renais. Cada médico e enfermeiro tem um compromisso pessoal com a saúde e o bem-estar de nossos pacientes. Conheça as pessoas que vão cuidar de você: [list-photo] Nosso time está preparado para oferecer o melhor atendimento, com atenção, respeito e dedicação.",
+    "photos" : [
+        {
+            "url" : "./assets/equipe/1.jpg",
+            "title" : "Dr Warlisson Nefrologista"
+        },
+        {
+            "url" : "./assets/equipe/2.jpg",
+            "title" : "Marinita Enfermeira RT"
+        },
+        {
+            "url" : "./assets/equipe/3.jpg",
+            "title" : "Fernanda Enfermeira Chefe"
+        },
+        {
+            "url" : "./assets/equipe/4.jpg",
+            "title" : "Patricia Assistente Social"
+        },
+        {
+            "url" : "./assets/equipe/5.jpg",
+            "title" : "Elisângela Psicóloga"
+        }
+    ]
+}
