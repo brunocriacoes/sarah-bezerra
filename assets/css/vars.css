@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: "Roboto Mono", monospace;
+    --azul: #0064b1;
+    --ocle: #af7342;
+    --title: "Lato", sans-serif;
+    --text: "Lora", serif;
+}

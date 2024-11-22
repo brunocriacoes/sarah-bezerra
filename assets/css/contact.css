@@ -1,0 +1,36 @@
+.grid-contact {
+    display: grid;
+    width: 100%;
+    gap: 18px;
+
+    @media (min-width: 760px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+.grid-contact p {
+    font-family: var(--text);
+}
+
+.grid-contact a {
+    color: #0064b1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.grid-contact a:hover{
+    color: #054a80;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.grid-contact h1 {
+    color: #af7342;
+    font-family: var(--title);
+}
+
+.grid-contact h2 {
+    color: #0064b1;
+    font-family: var(--title);
+}
