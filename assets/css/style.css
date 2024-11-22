@@ -459,13 +459,14 @@ section {
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    gap: 32px;
 }
 
 .card {
     flex: 1 1 300px;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 20px;
     background: #f7f7f7;
     border-radius: 10px;
@@ -543,13 +544,14 @@ form button:hover {
 
 .video-container {
     display: grid;
-    grid-template-columns: 66% 1fr;
+    grid-template-columns: 100%;
     align-items: center;
     gap: 16px;
 }
 
 video {
     width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -607,4 +609,22 @@ video {
 
 .icon {
     color: var(--ocletext);
+}
+
+.top-space {
+    margin-top: var(--verticalspace);
+}
+
+.images-gallery {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.images-gallery img {
+    width: calc(100% / 7);
+    height: auto;
+    object-fit: contain;
+    display: block;
 }
