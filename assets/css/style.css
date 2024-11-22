@@ -12,6 +12,7 @@
     --azul: #0064b1;
     --ocle: #af7342;
     --ctacolorbg: #3b7366;
+    --ctacolorbgover: #275349;
     --ctacolortext: #FFF;
     --title: "Lato", sans-serif;
     --text: "Lora", serif;
@@ -214,7 +215,7 @@
 .cta-button {
     position: absolute;
     top: 60%;
-    transform: translateY(-4%);
+    transform: translateY(4%);
     font-family: "Montserrat", sans-serif;
     font-size: 8px;
     text-transform: uppercase;
@@ -236,6 +237,7 @@
 
 .cta-button:hover {
     transform: scale(1.02);    
+    background-color: var(--ctacolorbgover);
 }
 
 .cta-button span {
