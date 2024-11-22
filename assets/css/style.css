@@ -374,6 +374,12 @@
     font-size: 24px;
     color: #333;
     cursor: pointer;
+    margin: 24px auto 0 auto;
+    margin-top: 24px;
+
+    @media (min-width: 760px) {        
+        margin: unset;        
+    }
 }
 
 .link_social a:hover {
