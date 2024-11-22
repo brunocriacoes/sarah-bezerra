@@ -11,6 +11,8 @@
     --font: "Roboto Mono", monospace;
     --azul: #0064b1;
     --ocle: #af7342;
+    --ctacolorbg: #3b7366;
+    --ctacolortext: #FFF;
     --title: "Lato", sans-serif;
     --text: "Lora", serif;
 }
@@ -44,6 +46,7 @@
 
 #menu-mobile:checked~div {
     display: block;
+
     @media (min-width: 760px) {
         display: none;
     }
@@ -53,6 +56,7 @@
 .menu-fix-mobile {
     display: block;
 }
+
 .menu-fix-mobile a {
     display: block;
     line-height: 48px;
@@ -169,6 +173,76 @@
 .swiper {
     width: 100%;
     height: 500px;
+}
+
+.main-banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;    
+}
+
+.main-banner picture img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.main-banner h2 {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0;
+    width: 80%;
+
+    @media (min-width: 760px) {
+        font-size: 50px;
+    }
+}
+
+.cta-button {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-4%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: var(--ctacolorbg);
+    color: var(--ctacolortext);
+    border-radius: 40px;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+    @media (min-width: 760px) {
+        font-size: 16px;
+        padding: 25px 60px;
+    }
+}
+
+.cta-button:hover {
+    transform: scale(1.02);    
+}
+
+.cta-button span {
+    font-family: "Montserrat", sans-serif;    
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;    
 }
 
 .banner-item {
