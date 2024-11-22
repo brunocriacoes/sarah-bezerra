@@ -176,8 +176,12 @@
 
 .main-banner picture img {
     width: 100%;
-    height: auto;
+    height: 360px;
     object-fit: cover;
+
+    @media (min-width: 760px) {
+        height: auto;
+    }
 }
 
 .main-banner h2 {
@@ -299,8 +303,8 @@
 
 .footer_bg {
     display: block;
-    background-color: #EEE;
-    padding: 16px 0;
+    background-color: var(--ocle);
+    padding: 24px 0 0;
     border-top: 1px solid #DDD;
 }
 
@@ -308,35 +312,47 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 48px;
+    text-align: center;
 
     @media (min-width: 760px) {
         grid-template-columns: repeat(4, 1fr);
+        text-align: left;
     }
 }
 
 .footer_logo {
     display: block;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: var(--ocletext);
     width: 60%;
     margin: auto;
 }
 
 .footer_text {
     font-family: var(--text);
-    color: #333;
-    text-align: justify;
+    color: var(--ocletext);
+    text-align: center;
+    padding: 0 0 24px 0;
+
+    @media (min-width: 760px) {        
+        text-align: left;
+    }
 }
 
 .footer_title {
     font-family: var(--title);
     font-size: 18px;
+    color: var(--ocletext);
     font-weight: bolder;
+    margin-bottom: 12px;
 }
 
 .footer_link {
     font-family: var(--text);
     display: block;
     text-decoration: none;
-    color: #333;
+    color: var(--ocletext);
     font-weight: 500;
     line-height: 32px;
     cursor: pointer;
@@ -344,6 +360,7 @@
 
 .footer_link:hover {
     color: var(--azul);
+    color: var(--ocletextover);
     font-weight: bold;
 }
 
@@ -365,12 +382,13 @@
 
 .copy {
     display: block;
-    color: #666;
+    color: var(--ocletextover);
     text-align: center;
     padding: 16px 8px;
     font-family: var(--text);
     font-size: 14px;
-
+    background-color: var(--ocledark);
+    margin-top: 24px;
 }
 
 body {
@@ -579,4 +597,8 @@ video {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+}
+
+.icon {
+    color: var(--ocletext);
 }
