@@ -9,6 +9,12 @@
     --font: "Roboto Mono", monospace;
     --azul: #0064b1;
     --ocle: #af7342;
+    --ocledark: #583a21;
+    --ocletext: #F1F1F1;
+    --ocletextover: #ccc;
+    --ctacolorbg: #3b7366;
+    --ctacolorbgover: #2f5f54;
+    --ctacolortext: #FFF;
     --title: "Lato", sans-serif;
     --text: "Lora", serif;
 }
