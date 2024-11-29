@@ -324,9 +324,15 @@
     display: block;
     padding: 12px;
     border-radius: 50%;
-    background-color: var(--ocletext);
-    width: 60%;
+    background-color: var(--ocletext);    
     margin: auto;
+}
+
+.footer_logo img {
+    --size: 200px;
+    display: block;
+    width: var(--size);
+    height: var(--size);
 }
 
 .footer_text {
@@ -555,7 +561,7 @@ form button:hover {
 }
 
 .video-container h2 {
-    font-size: 32px;    
+    font-size: 32px;
     text-decoration: underline 1px;
 }
 
@@ -649,7 +655,7 @@ video {
 
 .main-hero {
     display: grid;
-    grid-template-columns: 1fr;    
+    grid-template-columns: 1fr;
     gap: 48px;
     width: 80%;
     margin: 64px auto 64px auto;
@@ -691,14 +697,14 @@ p {
 ul {
     display: table-row;
     list-style: none;
-  }
-  
-  li {
+}
+
+li {
     display: table-row;
     color: #666;
-  }
-    
-  li::before {
+}
+
+li::before {
     display: table-cell;
     text-align: right;
     content: "+";
@@ -706,13 +712,13 @@ ul {
     font-weight: bold;
     color: var(--ocle);
     padding-right: 12px;
-  }
-  
-  
-  /* Non-essential */
-  
-  
-  .content-container {
+}
+
+
+/* Non-essential */
+
+
+.content-container {
     position: relative;
     top: 0;
     bottom: 0;
@@ -723,33 +729,35 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .list-container {
+}
+
+.list-container {
     width: 100%;
     margin: 2em 0;
-  }
-  
-  strong {
+}
+
+strong {
     color: var(--ocledark);
-  }
-  
-  ul {
+}
+
+ul {
     margin: 0;
     padding: 0;
-  }
-  
-  li:hover {
-    background-color: rgba(256,256,256,0.1);
-  }
-  li:before:hover {
-    background-color: rgba(256,256,256,0.1);
-  }
-  /* li:not(:first-of-type)::before {
+}
+
+li:hover {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+li:before:hover {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+/* li:not(:first-of-type)::before {
     padding-top: 12px;
   } */
 
-  .list-container ul li {
-    display: inline-table;            
+.list-container ul li {
+    display: inline-table;
     margin-bottom: 12px;
-  }
+}
