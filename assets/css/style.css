@@ -556,7 +556,7 @@ form button:hover {
 }
 
 .video-container h3 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: lighter;
 }
 
