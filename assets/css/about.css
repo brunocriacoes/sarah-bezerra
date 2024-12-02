@@ -53,6 +53,10 @@
     align-items: center;
 }
 
+.grid-vision > div > span {
+    width: 100%;
+}
+
 .grid-vision h2 {
     color: #af7342;
     font-family: var(--title);
