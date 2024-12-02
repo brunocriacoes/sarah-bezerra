@@ -382,6 +382,7 @@
     cursor: pointer;
     margin: 24px auto 0 auto;
     margin-top: 24px;
+    text-decoration: none;
 
     @media (min-width: 760px) {
         margin: unset;
