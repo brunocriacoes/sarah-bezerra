@@ -45,17 +45,29 @@
 
 .grid-vision > div {
     display: flex;
+    flex-direction: column;
     background-color: #EEE;
     height: 100%;
     border: 1px solid #DDD;
     border-radius: 8px;
     padding: 18px;
-    align-items: center;
 }
 
 .grid-vision > div > span {
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
+
+.grid-vision > div > span img {
+    align-self: flex-start;
+    margin-bottom: 12px;
+}
+
+.grid-vision > div > span p {
+    text-align: justify;
+}
+
 
 .grid-vision h2 {
     color: #af7342;

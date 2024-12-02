@@ -560,11 +560,6 @@ form button:hover {
     font-weight: lighter;
 }
 
-.video-container h2 {
-    font-size: 32px;
-    text-decoration: underline 1px;
-}
-
 video {
     width: 100%;
     border-radius: 20px;
@@ -770,4 +765,16 @@ h2.page-title {
     @media (min-width: 760px) {
         font-size: 26px;
     }
+}
+
+.main-hero p {
+    text-align: justify;
+}
+
+.service p {
+    text-align: justify;
+}
+
+.page-subtitle {
+    color: #0064b1;
 }

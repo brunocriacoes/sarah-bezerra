@@ -10,8 +10,9 @@
     }
 }
 
-.grid-contact p {
+.grid-contact p {    
     font-family: var(--text);
+    text-align: justify;
 }
 
 .grid-contact a {
