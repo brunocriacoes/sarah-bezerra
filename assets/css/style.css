@@ -657,7 +657,7 @@ video {
     margin: 64px auto 64px auto;
 
     @media (min-width: 760px) {
-        grid-template-columns: 1fr 40%;
+        grid-template-columns: 1fr 50%;
     }
 }
 
