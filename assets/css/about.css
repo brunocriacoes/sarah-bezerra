@@ -11,13 +11,24 @@
 
 .grid-sobre-about {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: column;    
+    height: 100%;
     gap: 18px;
+}
 
-    @media (min-width: 760px) {
+@media (min-width: 760px) {
+    .grid-sobre-about {
         flex-direction: row;
         gap: 48px;
+        height: 100%;
+        margin: unset;
+    }
+}
+
+@media (min-width: 1300px) {
+    .grid-sobre-about {
+        height: 100%;
+        margin: 0 auto;
     }
 }
 
