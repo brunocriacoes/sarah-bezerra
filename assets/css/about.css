@@ -16,7 +16,7 @@
     gap: 18px;
 
     @media (min-width: 760px) {
-        grid-template-columns: 1fr 20%;
+        grid-template-columns: 1fr 50%;
         gap: 48px;
         align-items: center;
     }
