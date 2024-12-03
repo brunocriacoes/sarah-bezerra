@@ -11,7 +11,7 @@
 }
 
 .grid-contact p {    
-    font-family: var(--text);
+    font-family: var(--font);
     text-align: justify;
 }
 
@@ -28,13 +28,12 @@
 }
 
 .grid-contact h1 {
-    color: #af7342;
-    font-family: var(--title);
+    color: #af7342;    
 }
 
 .grid-contact h2 {
     color: #0064b1;
-    font-family: var(--title);
+    
 }
 
 .grid-double {
@@ -53,17 +52,15 @@
 }
 
 .service h1 {
-    color: #af7342;
-    font-family: var(--title);
+    color: #af7342;    
 }
 
 .service h2 {
-    color: #0064b1;
-    font-family: var(--title);
+    color: #0064b1;    
 }
 
 .service p {
-    font-family: var(--text);
+    font-family: var(--font);
     padding: 0 48px;
 }
 

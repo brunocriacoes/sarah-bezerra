@@ -1,9 +1,8 @@
 .header_image {
     display: block;
     width: 100%;
-    /* height: 300px; */
     object-position: center center;
-    /* object-fit: cover; */
+
     @media (min-width: 1400px) {
         max-height: 460px;
         object-fit: cover;
@@ -11,29 +10,35 @@
 }
 
 .grid-sobre-about {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     gap: 18px;
 
     @media (min-width: 760px) {
-        grid-template-columns: 1fr 40%;
+        flex-direction: row;
         gap: 48px;
-        align-items: center;
     }
-
 }
 
-.grid-sobre-about p {
-    text-align: justify !important;
-    font-family: var(--text);
+.grid-sobre-about>div:first-child {
+    flex: 3;
+}
 
+.grid-sobre-about>div:last-child {
+    flex: 2;
 }
 
 .grid-sobre-about img {
     display: block;
+    max-height: 100%;
     width: 100%;
+    max-height: 620px;
     border-radius: 24px;
+    object-fit: cover;
+    align-self: flex-start;
 }
+
 
 .grid-vision {
     display: grid;
@@ -47,7 +52,7 @@
     }
 }
 
-.grid-vision > div {
+.grid-vision>div {
     display: flex;
     flex-direction: column;
     background-color: #EEE;
@@ -57,30 +62,28 @@
     padding: 18px;
 }
 
-.grid-vision > div > span {
+.grid-vision>div>span {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.grid-vision > div > span img {
+.grid-vision>div>span img {
     align-self: flex-start;
     margin-bottom: 12px;
 }
 
-.grid-vision > div > span p {
+.grid-vision>div>span p {
     text-align: justify;
 }
 
 
 .grid-vision h2 {
     color: #af7342;
-    font-family: var(--title);
 }
 
 .grid-sobre-about h1 {
     color: #0064b1;
-    font-family: var(--title);
 }
 
 .grid-vision img {
