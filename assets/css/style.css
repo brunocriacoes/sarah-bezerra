@@ -780,3 +780,10 @@ h2.page-title {
 .service h2 {
     margin-top: 0;
 }
+
+@media (max-width: 760px) {
+    .main-hero a {
+        width: 100%;
+        text-align: center;
+    }
+}
