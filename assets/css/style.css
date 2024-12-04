@@ -762,6 +762,7 @@ h2.page-title {
 
 .main-hero p {
     text-align: justify;
+    margin-bottom: 0;
 }
 
 .service p {
@@ -774,4 +775,8 @@ h2.page-title {
 
 .grid-sobre-about p {
     text-align: justify;
+}
+
+.service h2 {
+    margin-top: 0;
 }
