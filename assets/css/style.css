@@ -681,7 +681,6 @@ p {
 }
 
 
-
 /* Essential */
 
 ul {
@@ -771,4 +770,8 @@ h2.page-title {
 
 .page-subtitle {
     color: #0064b1;
+}
+
+.grid-sobre-about p {
+    text-align: justify;
 }
