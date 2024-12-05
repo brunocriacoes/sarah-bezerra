@@ -792,5 +792,6 @@ h2.page-title {
     .footer_link {
         max-width: 100%;
         overflow-x: hidden;
+        font-size: 12px;
     }
 }
