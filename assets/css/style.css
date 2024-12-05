@@ -794,4 +794,12 @@ h2.page-title {
         overflow-x: hidden;
         font-size: 12px;
     }
+
+    .grid-contact a {
+        font-size: 12px;
+    }
+
+    .grid-contact {
+        overflow-x: hidden;
+    }
 }
