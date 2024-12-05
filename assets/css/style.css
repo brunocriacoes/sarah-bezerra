@@ -309,6 +309,8 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 48px;
     text-align: center;
+    width: 100%;
+    overflow-x: hidden;
 
     @media (min-width: 760px) {
         grid-template-columns: repeat(4, 1fr);
@@ -355,7 +357,7 @@
     color: var(--ocletext);
     font-weight: 500;
     line-height: 32px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .footer_link:hover {
@@ -785,5 +787,10 @@ h2.page-title {
     .main-hero a {
         width: 100%;
         text-align: center;
+    }
+
+    .footer_link {
+        max-width: 100%;
+        overflow-x: hidden;
     }
 }
